@@ -121,7 +121,7 @@ main {
 }
 
 .write-btn {
-  background: #f36f0f;
+  background: rgb(254, 111, 15);
   color: white;
   padding: 15px 20px;
   border-radius: 30px;
@@ -130,6 +130,12 @@ main {
   right: 20px;
   box-shadow: 2px 2px 5px rgb(188, 188, 188);
   /* font-weight: 800; */
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+}
+
+.write-btn:hover {
+  background-color: rgba(254, 111, 15, 0.6);
 }
 
 /* footer */
